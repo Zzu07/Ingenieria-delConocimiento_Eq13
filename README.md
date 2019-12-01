@@ -31,4 +31,4 @@ Uso:
 
 Documentación:
 La documentación del proyecto se encuentra en el archivo:
-BalanceGeneral.pdf
+- BalanceGeneral.pdf
