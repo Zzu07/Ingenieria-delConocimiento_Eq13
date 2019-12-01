@@ -8,7 +8,7 @@ Lomas Medel Luis Ángel
 
 
 *******************************************************************
-                  CALCULADORA DE BALANCE 
+                      CALCULADORA DE BALANCE 
 
 GUÍA DE USO:
 
@@ -27,4 +27,4 @@ Uso:
   por su nombre a la izquierda de cada campo.
 - Presionar el botón "Calcular" para mostrar el resultado el cual
   reemplazará el texto "--Utilidad--" en la parte inferior del
-  botón "Calcular". 
+  texto "Tu Utilidad es:". 
