@@ -28,3 +28,7 @@ Uso:
 - Presionar el botón "Calcular" para mostrar el resultado el cual
   reemplazará el texto "--Utilidad--" en la parte inferior del
   texto "Tu Utilidad es:". 
+
+Documentación:
+La documentación del proyecto se encuentra en el archivo:
+BalanceGeneral.pdf
