@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Balance</title>
+		<link rel="stylesheet" href="balance.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	    
+	    <header class="container">
+            <div class="titulo">
+              <h1 class="col-sm-4">Calculador de Balance</h1>
+            </div>
+        </header>
+	    
+		<script>
+		function calcular()
+		{
+		    var infraestructura = parseInt(document.getElementById("infraestructura").value);
+		    var bancos = parseInt(document.getElementById("bancos").value);
+		    var insumosA = parseInt(document.getElementById("insumosA").value);
+		    var insumosB = parseInt(document.getElementById("insumosB").value);
+		    var insumosC = parseInt(document.getElementById("insumosC").value);
+		    var enproceso = parseInt(document.getElementById("enproceso").value);
+		    var mercancias = parseInt(document.getElementById("mercancias").value);
+		    var clientes = parseInt(document.getElementById("clientes").value);
+		    var social = parseInt(document.getElementById("social").value);
+		    var hipotecas = parseInt(document.getElementById("hipotecas").value);
+		    var proveedores = parseInt(document.getElementById("proveedores").value);
+		    
+		    document.getElementById("utilidades").innerHTML = infraestructura + bancos + insumosA + insumosB + insumosC + enproceso + mercancias + clientes - social - hipotecas - proveedores;
+		}
+		</script>
+		
+		<section class="jumbotron">
+            <div class="container">
+              <div class="row text-center">
+                <h2>Activos</h2>
+		            <FONT SIZE=4>Infraestructura: <input type="text" id="infraestructura"></font>
+		            <FONT SIZE=4>Bancos: <input type="text" id="bancos"></font>
+		            <FONT SIZE=4>Insumos A: <input type="text" id="insumosA"></font>
+		            <br>
+		            <FONT SIZE=4>Insumos B: <input type="text" id="insumosB"></font>
+		            <FONT SIZE=4>Insumos C: <input type="text" id="insumosC"></font>
+		            <FONT SIZE=4>En Proceso: <input type="text" id="enproceso"></font>
+		            <br>
+		            <FONT SIZE=4>Mercancias: <input type="text" id="mercancias"></font>
+		            <FONT SIZE=4>Clientes: <input type="text" id="clientes"></font>
+		            <br>
+		            <br>
+		            <h2>Pasivos</h2>
+		            <FONT SIZE=4>Hipotecas: <input type="text" id="hipotecas"></font>
+		            <FONT SIZE=4>Proveedores: <input type="text" id="proveedores"></font>
+		            <br>
+		            <br>
+		            <h2>Capital</h2>
+		            <FONT SIZE=4>Social: <input type="text" id="social"></font>
+		            <br>
+		            <br>
+		            <button onclick="calcular()">Calcular</button>
+		            <br>
+		            <br>
+		            <br>
+		            <h2>Tu Utilidad es:</h2>
+		            <FONT SIZE=5><p id="utilidades">--Utilidad--</p></font>
+              </div>
+            </div>
+          </section>
+		
+	</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+header .row{
+  display: flex;
+  background: billetes.jpg;
+  text-align: center;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('billetes.jpg');
+  background-size: cover;
+  color: #000000;
+  height: 490px;
+  text-shadow: 0.25px 0.25px 0.25px #ffffff;
+}
+
+.jumbotron h2 {
+  font-weight: 900;
+  margin: 0;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 800;
+  margin: 100;
+  text-align: center;
+}
+
+header h2 {
+  font-weight: 350;
+  margin: 0;
+  align-items: center;
+}
