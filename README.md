@@ -2,8 +2,8 @@
 Carpeta de Proyecto de Ingenierìa del Conocimiento en UPIICSA
 
 Integrantes:
-Márquez Rojas Adrián Zu
-Lomas Medel Luis Ángel
+- Márquez Rojas Adrián Zu
+- Lomas Medel Luis Ángel
 
 
 
